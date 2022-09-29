@@ -13,5 +13,5 @@ All information collects on clients using WinAPI functions and sent encrypted on
 Server is statefull and use the I/O Completion Ports mechanism to connect with clients.
 
 ## RPC Implementation
-Contained in files: rpc_*.cpp
+Contained in files: rpc_*.cpp.
 The same program but in RPC implementation.
