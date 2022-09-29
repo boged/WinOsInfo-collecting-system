@@ -1,4 +1,6 @@
 # WinOsInfo-collecting-system
+## Winsock Implementation
+Contained in files: winsock_*.cpp
 Client-Server system based on Winsock. Main logic of work include collecting from clients Windows OS information such as:
 - OS type and version
 - Current Time
@@ -9,3 +11,7 @@ Client-Server system based on Winsock. Main logic of work include collecting fro
 
 All information collects on clients using WinAPI functions and sent encrypted on server. Encryption is implemented using CryptoAPI.
 Server is statefull and use the I/O Completion Ports mechanism to connect with clients.
+
+## RPC Implementation
+Contained in files: rpc_*.cpp
+The same program but in RPC implementation.
